@@ -1,4 +1,4 @@
-def count_digits_in_string(text):
+def count_digits_in_string(tex):
     return sum(1 for char in text if char.isdigit())
 
 if __name__ == "__main__":
